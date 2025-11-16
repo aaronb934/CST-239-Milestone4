@@ -1,0 +1,6 @@
+{"@class":"model.Health","name":"Basic Health Potion","description":"Health","price":75.0,"quantity":5,"healthPoints":25}
+{"@class":"model.Armor","name":"Chainmail","description":"Armor","price":150.0,"quantity":10,"defense":20}
+{"@class":"model.Weapon","name":"Gun","description":"Weapon","price":50.0,"quantity":7,"attack":10}
+{"@class":"model.Armor","name":"Mystic","description":"Armor","price":500.0,"quantity":5,"defense":50}
+{"@class":"model.Health","name":"Super Health Potion","description":"Health","price":300.0,"quantity":20,"healthPoints":100}
+{"@class":"model.Weapon","name":"Sword","description":"Weapon","price":75.0,"quantity":4,"attack":15}
