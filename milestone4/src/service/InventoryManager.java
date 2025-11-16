@@ -25,13 +25,13 @@ public class InventoryManager {
 		try {
 			this.products = fileService.readProductsFromFile();
 			if (this.products.isEmpty()) {
-				System.out.println("Inventory loaded but is empty."); // Change this
+				System.out.println("Inventory loaded but is empty.");
 			}
 		} catch (InventoryLoadException e) {
 			System.err.println(e.getMessage());
 			e.printStackTrace();
 			this.products = new ArrayList<>();
-			System.err.println("Continuing with an empty inventory."); // Change this
+			System.err.println("Continuing with an empty inventory.");
 		}
 	}
 	
@@ -101,4 +101,5 @@ public class InventoryManager {
 			System.err.println("Failed to save inventory updates: " + e.getMessage());
 		}
 	}
+
 }
